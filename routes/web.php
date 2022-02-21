@@ -15,7 +15,6 @@ use App\Models\User;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('login',function(){
 	if(session()->has('admin_data')){
 		return redirect('/');
